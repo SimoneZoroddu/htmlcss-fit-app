@@ -64,7 +64,24 @@
     right: 10px;
 }
 
-/* Border_Input and Quotation_marks */
+/* Quotation_marks */
+
+.quote-box::before {
+    content: '"' ;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(255, 147, 200, 0.185);
+}
+.quote-box::after {
+    content: '"' ;
+    position: absolute;
+    bottom: 25px;
+    right: 105px;
+    color: rgba(255, 147, 200, 0.185);
+}
+
+/* Border_Input */
 
 input[type="number"]:focus, input[type="text"]:focus, select:focus  {
     outline: none;
@@ -72,13 +89,6 @@ input[type="number"]:focus, input[type="text"]:focus, select:focus  {
     border-color: blue;
     box-shadow: 0 8px 12px rgba(3, 5, 158, 0.4);
 }
-
-/* .goal-input-group:nth-of-type(3) > input[type="text"placeholder]:after {
-    content: "addio";
-    content: attr("");
-    font-size: 8px;
-    color: black;
-} */
 
 /* Button_Save */
 
