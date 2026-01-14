@@ -9,11 +9,9 @@
 .stats-container > .stats-grid:last-child {
     background: linear-gradient(
         to right,
-        rgba(102,124,232,100),
-        rgba(116,79,168,100)
+        rgba(102,124,232,1),
+        rgba(116,79,168,1)
         );
-    font-display: auto;
-    back;
 }
 
 .stats-container > .stats-grid:last-child * {
@@ -81,16 +79,13 @@ button:hover {
 .nav-item:hover {
     background-color: rgba(53, 0, 177, 0.774);
     color: rgb(3, 3, 122);
-    text-shadow: 4px;
     box-shadow: 0 8px 12px rgba(0, 3, 206, 0.829);
-    text-indent: 2px;
     translate: 2px;
 }
+
 .nav-footer > a:first-child {
     background-color: rgba(53, 0, 177, 0.774);
     color: rgb(3, 3, 122);
-    text-shadow: 4px;
     box-shadow: 0 8px 12px rgba(0, 3, 206, 0.829);
-    text-indent: 2px;
     translate: 2px;
 }
