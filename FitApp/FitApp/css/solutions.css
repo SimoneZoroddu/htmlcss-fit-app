@@ -13,9 +13,14 @@
         rgba(116,79,168,100)
         );
     font-display: auto;
-    font
+    back;
 }
 
 .stats-container > .stats-grid:last-child * {
     color: white;
+}
+
+.stats-grid:hover {
+    box-shadow: 0 8px 12px rgba(0,0,0,0.4);
+    translate: 5px;
 }
