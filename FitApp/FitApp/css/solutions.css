@@ -1,8 +1,21 @@
-   /* content: "\1F525"; */
 
 .stats-container > .stats-grid:first-child > span::before {
     content: "\1F525";
     font-size: 30px;
     display: flex;
     flex-direction: column;
+}
+
+.stats-container > .stats-grid:last-child {
+    background: linear-gradient(
+        to right,
+        rgba(102,124,232,100),
+        rgba(116,79,168,100)
+        );
+    font-display: auto;
+    font
+}
+
+.stats-container > .stats-grid:last-child * {
+    color: white;
 }
