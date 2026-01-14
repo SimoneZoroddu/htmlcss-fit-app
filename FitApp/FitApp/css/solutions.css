@@ -24,3 +24,13 @@
     box-shadow: 0 8px 12px rgba(0,0,0,0.4);
     translate: 5px;
 }
+
+.workout-plan:nth-of-type(2) {
+    background-color: rgb(255, 248, 186);
+    border: solid;
+    border-width: 5px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: rgb(243, 157, 19);
+}
