@@ -1,3 +1,4 @@
+/* Fire_icon */
 
 .stats-container > .stats-grid:first-child > span::before {
     content: "\1F525";
@@ -6,6 +7,7 @@
     flex-direction: column;
 }
 
+/* Background_card */
 .stats-container > .stats-grid:last-child {
     background: linear-gradient(
         to right,
@@ -23,6 +25,8 @@
     translate: 5px;
 }
 
+/* Training_card */
+
 .workout-plan:nth-of-type(2) {
     background-color: rgb(255, 248, 186);
     border: solid;
@@ -33,6 +37,8 @@
     border-color: rgb(243, 157, 19);
 }
 
+/* Exercise_card */
+
 .exercise-item:first-child, .exercise-item:last-child {
     background-color: rgb(240, 255, 244);
     border-color: rgb(47, 204, 114);
@@ -42,6 +48,8 @@
     content: "\26A1";
     font-size: 20px;
 }
+
+/* Progress_bar */
 
 .progress-bar {
     position: relative;
@@ -55,6 +63,8 @@
     top: -2px;
     right: 10px;
 }
+
+/* Border_Input and Quotation_marks */
 
 input[type="number"]:focus, input[type="text"]:focus, select:focus  {
     outline: none;
@@ -70,11 +80,15 @@ input[type="number"]:focus, input[type="text"]:focus, select:focus  {
     color: black;
 } */
 
+/* Button_Save */
+
 button:hover {
     background-color: rgb(6, 113, 175);
     translate: 2px;
     box-shadow: 0 8px 12px rgba(0, 3, 206, 0.596);
 }
+
+/* Navigation_item */
 
 .nav-item:hover {
     background-color: rgba(53, 0, 177, 0.774);
