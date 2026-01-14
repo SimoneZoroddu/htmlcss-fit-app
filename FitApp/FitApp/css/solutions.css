@@ -34,3 +34,13 @@
     border-bottom: 0;
     border-color: rgb(243, 157, 19);
 }
+
+.exercise-item:first-child, .exercise-item:last-child {
+    background-color: rgb(240, 255, 244);
+    border-color: rgb(47, 204, 114);
+}
+
+.exercise-item:nth-of-type(2):before, .exercise-item:nth-of-type(4):before {
+    content: "\26A1";
+    font-size: 20px;
+}
