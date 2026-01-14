@@ -1,0 +1,8 @@
+   /* content: "\1F525"; */
+
+.stats-container > .stats-grid:first-child > span::before {
+    content: "\1F525";
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
