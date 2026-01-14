@@ -68,16 +68,19 @@
 
 .quote-box::before {
     content: '"' ;
+    font-size: 50px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 1px;
+    left: 7px;
     color: rgba(255, 147, 200, 0.185);
 }
+
 .quote-box::after {
     content: '"' ;
+    font-size: 50px;
     position: absolute;
-    bottom: 25px;
-    right: 105px;
+    bottom: -6px;
+    right: 100px;
     color: rgba(255, 147, 200, 0.185);
 }
 
