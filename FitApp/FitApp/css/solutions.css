@@ -2,7 +2,7 @@
 .stats-container > .stats-grid:first-child > span::before {
     content: "\1F525";
     font-size: 30px;
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 
@@ -44,3 +44,24 @@
     content: "\26A1";
     font-size: 20px;
 }
+
+.progress-bar {
+    position: relative;
+}
+
+.progress-fill::after {
+    content: "65%";
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: -2px;
+    right: 10px;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus  {
+    outline: none;
+    border-width: 2px;
+    border-color: blue;
+    box-shadow: 0 8px 12px rgba(3, 5, 158, 0.4);
+}
+
