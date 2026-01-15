@@ -47,7 +47,7 @@
 }
 
 .exercise-item:nth-of-type(2):before, .exercise-item:nth-of-type(4):before {
-    content: "\26A1";
+    content: "⚡";
     font-size: 20px;
 }
 
